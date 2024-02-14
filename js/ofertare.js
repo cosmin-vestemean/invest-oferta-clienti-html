@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 var extra_nivele_count = 0;
 var original_ds = [];
 var compacted_ds = [];
