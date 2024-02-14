@@ -791,6 +791,20 @@ function saveOferta() {
     */
 
   const axios = require("axios");
+
+  axios
+    .post("https://investdej.oncloud.gr/s1services", {
+      service: "login",
+      username: "Serra",
+      password: "5151",
+      appId: "1001",
+    })
+    .then((response) => {
+      console.log("response", response);
+    })
+    .catch((error) => {
+      console.log("error", error);
+    });
   
 
   var btn_oferta = document.getElementById("btn_oferta");
