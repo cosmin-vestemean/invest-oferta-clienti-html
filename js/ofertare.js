@@ -738,7 +738,10 @@ function drawModalDialog(selected_combo, selected_ds) {
     console.log("ds_antemasuratori", ds_antemasuratori);
 
     //create table
-    var table = document.createElement("table");
+
+    var table =
+      document.getElementById("table_antemasuratori") ||
+      document.createElement("table");
     table.classList.add("table");
     table.classList.add("table-sm");
     table.classList.add("table-bordered");
