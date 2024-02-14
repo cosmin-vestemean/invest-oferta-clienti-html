@@ -3,3 +3,8 @@
 -Nu se fac antemasuratori pe TIP_ARTICOL_OFERTA="SUBARTICOLE" dar se importa in oferta
 -cand se adauga cantitate antemasuratori => total = cantitate antemasuratori * pret unitar (oriunde in oferta)
 -selectie ierarhii selected => al doilea select filtrat in functie de primul select: ex: A-B-C => A-B-C; (ABC-)D; (ABC-)E etc
+
+
+
+Serra
+5151
