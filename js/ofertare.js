@@ -779,6 +779,20 @@ function saveChanges() {
 }
 
 function saveOferta() {
+    /*
+    create axios request:
+    post to https://investdej.oncloud.gr/s1services 
+    {
+      "service":"login",
+      "username":"Serra",
+      "password":"5151",
+      "appId":"1001"
+    }
+    */
+
+  const axios = require("axios");
+  
+
   var btn_oferta = document.getElementById("btn_oferta");
   btn_oferta.innerHTML = "Oferta salvata";
   btn_oferta.classList.remove("btn-danger");
