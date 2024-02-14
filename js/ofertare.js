@@ -1,9 +1,4 @@
-/*
-    JS code:
-1. load excel file by file chooser
-2. read excel file data
-3. create html table from array
-*/
+import axios from 'axios';
 
 var extra_nivele_count = 0;
 var original_ds = [];
@@ -789,8 +784,6 @@ function saveOferta() {
       "appId":"1001"
     }
     */
-
-  const axios = require("axios");
 
   axios
     .post("https://investdej.oncloud.gr/s1services", {
