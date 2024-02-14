@@ -79,10 +79,7 @@ HTML code:
           <img
             src="https://www.invest-dej.com/templates/livecms/images/logo-inves.png"
             alt="logo"
-            style="
-              width: 100px;
-              margin: 10px;
-            "
+            style="width: 100px; margin: 10px"
           />
         </div>
         <div class="col-sm">
@@ -95,30 +92,36 @@ HTML code:
             onchange="loadDataFromFile(event)"
           />
         </div>
-        <button
-          type="button"
-          id="btn_oferta"
-          class="btn btn-success btn-sm col-sm"
-          onclick="saveOferta()"
-        >
-          Oferta
-        </button>
-        <button
-          type="button"
-          id="btn_oferta"
-          class="btn btn-info text-light btn-sm col-sm"
-        >
-          Salveaza antemasuratori
-        </button>
-        <button
-          type="button"
-          id="btn_oferta_initiala"
-          class="btn btn-warning btn-sm col-sm"
-          data-bs-toggle="modal"
-          data-bs-target="#ModalCytoscape"
-        >
-          Reprezentare grafica
-        </button>
+        <div class="col-sm">
+          <button
+            type="button"
+            id="btn_oferta"
+            class="btn btn-success btn-sm"
+            onclick="saveOferta()"
+          >
+            Oferta
+          </button>
+        </div>
+        <div class="col-sm">
+          <button
+            type="button"
+            id="btn_oferta"
+            class="btn btn-info text-light btn-sm"
+          >
+            Salveaza antemasuratori
+          </button>
+        </div>
+        <div class="col-sm">
+          <button
+            type="button"
+            id="btn_oferta_initiala"
+            class="btn btn-warning btn-sm"
+            data-bs-toggle="modal"
+            data-bs-target="#ModalCytoscape"
+          >
+            Reprezentare grafica
+          </button>
+        </div>
         <div class="row">
           <select
             class="col-sm form-select form-select-sm"
